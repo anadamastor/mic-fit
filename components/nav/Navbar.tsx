@@ -8,24 +8,22 @@ import {
 } from "@mui/material";
 import AdbIcon from "@mui/icons-material/Adb";
 
-const StyledTypography = styled(Typography)`
-  margin-right: 24px;
-`;
 export const Navbar = () => {
   return (
     <AppBar position="static" sx={{ bgcolor: "black" }}>
       <Toolbar>
-        <Box></Box>
-        <AdbIcon sx={{ display: "flex", mr: 3 }} />
-        <StyledTypography variant="h6" noWrap>
-          Home
-        </StyledTypography>
-        <StyledTypography variant="h6" noWrap>
-          Cosa faccio
-        </StyledTypography>
-        <StyledTypography variant="h6" noWrap>
-          La mia storia
-        </StyledTypography>
+        <AdbIcon sx={{ mr: 3 }} />
+        <Box display={"flex"} flexDirection={"row"}>
+          <Typography variant="h6" noWrap sx={{ mr: 3 }}>
+            Home
+          </Typography>
+          <Typography variant="h6" noWrap sx={{ mr: 3 }}>
+            Cosa faccio
+          </Typography>
+          <Typography variant="h6" noWrap sx={{ mr: 3 }}>
+            La mia storia
+          </Typography>
+        </Box>
       </Toolbar>
     </AppBar>
   );
