@@ -17,7 +17,10 @@ const Layout = ({ children, title = "Michela Mancini" }: Props) => (
         property="og:description"
         content="Istruttrice Boxe Thailandese Federkombat..."
       />
-      <meta property="og:image" content="images/pic_michi.jpg" />
+      <meta
+        property="og:image"
+        content="https://mic-fit.vercel.app/images/pic_michi.jpg"
+      />
       <meta property="og:image:width" content="600" />
       <meta property="og:image:height" content="400" />
       <title>Michela Mancini Fitness</title>
