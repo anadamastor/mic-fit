@@ -1,37 +1,59 @@
 import { AppBar, Box, Button, Typography } from "@mui/material";
-
+import SendIcon from "@mui/icons-material/Send";
+import { Margin, PhoneInTalk } from "@mui/icons-material";
 export const Details = () => {
   return (
-    <Box>
-      <Box
-        width={"100%"}
-        component="img"
-        alt="Foto Michela"
-        src="images/pic_bw.jpg"
-      />
-      <Typography
-        sx={{ "margin-top": 24, color: "white" }}
-        align="center"
-        variant="h4"
-        fontSize={40}
-      >
-        Ciao, sono Michela!
-      </Typography>
+    <Box textAlign="center">
+      <Box flex={"flexbox"}>
+        <Typography
+          sx={{ "padding-top": 24 }}
+          align="center"
+          variant="h1"
+          fontSize={30}
+        >
+          Michela Mancini Fitness
+        </Typography>
+        <Typography
+          sx={{ "margin-bottom": 10, color: "white" }}
+          align="center"
+          variant="h5"
+        ></Typography>
+        <Typography
+          sx={{ color: "white" }}
+          align="center"
+          variant="h6"
+          fontWeight={100}
+          fontSize={14}
+        >
+          Istruttrice Boxe Thailandese Federkombat
+          <br />
+          Asp. Tecnico Pugilcato FPI <br />
+          Personal Trainer Certificato FIF <br />
+          Preparatrice Atletica FIF <br />
+        </Typography>
+        <Box
+          mx="auto" // Center the image horizontally
+          width={"50%"} // Adjust the width for scaling
+          component="img"
+          alt="Foto Michela"
+          // src="images/pic_bw.jpg"
+          src="images/pic_michi.jpg"
+          // sx={{ borderRadius: "90%" }}
+          sx={{ display: "block", borderRadius: "20%", marginY: 2 }} // Adjust marginY as needed
+        />
+      </Box>
+
       <Typography
         sx={{ "margin-top": 30, color: "white" }}
         align="center"
         variant="h6"
-        fontWeight={100}
-        fontSize={14}
+        // fontWeight={100}
+        fontSize={20}
       >
-        Istruttrice Boxe Thailandese Federkombat
-        <br />
-        Asp. Tecnico Pugilcatp FPI <br />
-        Personal Trainer Certificato FIF <br />
-        Preparatrice Atletica FIF <br />
+        Contattami per:
       </Typography>
       <Typography
-        sx={{ "margin-top": 30, color: "white" }}
+        sx={{ color: "white" }}
         align="center"
         variant="h6"
         fontWeight={100}
@@ -39,23 +61,38 @@ export const Details = () => {
       >
         Lezioni private e personalizzate
         <br />
-        Programmi di dimagrimento e tonificazione ipertrofica
+        Programmi di dimagrimento
         <br />
-        Allenamento funzionale sviluppo forza
+        Allenamento funzionale
+        <br />
+        Tonificazione e ipertrofia
+        <br />
+        Sviluppo forza
       </Typography>
-
-      <Button
-        variant="contained"
-        size="large"
-        color="primary"
-        target="_top"
-        rel="noopener noreferrer"
-        href={`mailto:test@example.com`}
-      >
-        <Typography variant="button" style={{ fontSize: "0.69rem" }}>
+      <Box mx="auto" mt={3} gap={2} display={"flex"} justifyContent={"center"}>
+        <Button
+          variant="contained"
+          size="large"
+          color="primary"
+          target="_top"
+          rel="noopener noreferrer"
+          href="tel:+393393676694"
+          endIcon={<PhoneInTalk />}
+        >
+          Cell
+        </Button>
+        <Button
+          variant="contained"
+          size="large"
+          color="primary"
+          target="_top"
+          rel="noopener noreferrer"
+          href={`mailto:michela.mancini@gmail.com `}
+          endIcon={<SendIcon />}
+        >
           Email
-        </Typography>
-      </Button>
+        </Button>{" "}
+      </Box>
     </Box>
   );
 };
