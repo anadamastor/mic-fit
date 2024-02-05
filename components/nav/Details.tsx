@@ -4,12 +4,12 @@ import { Margin, PhoneInTalk } from "@mui/icons-material";
 export const Details = () => {
   return (
     <Box textAlign="center">
-      <Box flex={"flexbox"}>
+      <Box>
         <Typography
           sx={{ "padding-top": 24 }}
           align="center"
           variant="h1"
-          fontSize={30}
+          fontSize={40}
         >
           Michela Mancini Fitness
         </Typography>
@@ -23,7 +23,7 @@ export const Details = () => {
           align="center"
           variant="h6"
           fontWeight={100}
-          fontSize={14}
+          fontSize={16}
         >
           Istruttrice Boxe Thailandese Federkombat
           <br />
@@ -57,7 +57,7 @@ export const Details = () => {
         align="center"
         variant="h6"
         fontWeight={100}
-        fontSize={14}
+        fontSize={16}
       >
         Lezioni private e personalizzate
         <br />
