@@ -7,6 +7,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Michela Mancini Fitness",
   description: "Preparazione atletica",
+  openGraph: {
+    title: "Michela Mancini Fitnes",
+    description: "Boxe thailandes e personal training",
+    images: "https://mic-fit.vercel.app/images/og-share.jpg",
+  },
 };
 
 export default function RootLayout({
