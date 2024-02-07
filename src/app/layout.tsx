@@ -10,7 +10,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Michela Mancini Fitness",
     description: "Boxe thailandese e personal training",
-    images: "https://micfit.it/images/og-share.jpg",
+    type: "website",
+    siteName: "Michela Mancini Fitness",
+
+    images: [
+      {
+        url: "https://micfit.it/images/og-share.jpg",
+        width: 235,
+        height: 235,
+      },
+    ],
   },
 };
 
