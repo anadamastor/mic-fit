@@ -8,9 +8,9 @@ export const metadata: Metadata = {
   title: "Michela Mancini Fitness",
   description: "Preparazione atletica",
   openGraph: {
-    title: "Michela Mancini Fitnes",
-    description: "Boxe thailandes e personal training",
-    images: "https://mic-fit.vercel.app/images/og-share.jpg",
+    title: "Michela Mancini Fitness",
+    description: "Boxe thailandese e personal training",
+    images: "https://mic-fit.vercel.app/images/og-share-2.jpg",
   },
 };
 
