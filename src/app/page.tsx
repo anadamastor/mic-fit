@@ -12,7 +12,7 @@ export default function Home() {
           <p>
             Istruttrice Boxe Thailandese Federkombat
             <br />
-            Asp. Tecnico Pugilcato FPI <br />
+            Asp. Tecnico Pugilato FPI <br />
             Personal Trainer Certificato FIF <br />
             Preparatrice Atletica FIF <br />
           </p>
