@@ -37,7 +37,7 @@ export default function Home() {
           <br />
           Tonificazione e ipertrofia
           <br />
-          Sviluppo forza
+          Sviluppo della forza
         </p>
       </div>
       <div className={styles.banner}></div>

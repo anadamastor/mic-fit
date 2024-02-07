@@ -10,9 +10,10 @@
 }
 
 .name {
+  right: 0;
   background-color: #00000099;
   backdrop-filter: blur(5px);
-  width: 120%;
+  width: 120%; /* Set width to 100% */
 }
 .name p {
   font-size: 3rem;
@@ -28,10 +29,10 @@
 
 .details p {
   font-size: 0.8rem;
+  font-weight: 500;
   color: rgb(74, 73, 73);
 }
-.services {
-}
+
 .services p {
   text-align: center;
   padding-top: 2rem;
