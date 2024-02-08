@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "allenamento funzionale",
     "boxe thailandese",
     "thai",
-    "workout.",
+    "workout",
   ],
   openGraph: {
     title: "Michela Mancini Fitness",
