@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <main className={styles.main}>
         <div className={styles.name}>
-          <p>Michela Mancini Fitness</p>
+          <h1>Michela Mancini Fitness</h1>
         </div>
         <div className={styles.details}>
           <p>

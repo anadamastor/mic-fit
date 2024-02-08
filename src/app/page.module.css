@@ -13,9 +13,10 @@
   right: 0;
   background-color: #00000099;
   backdrop-filter: blur(5px);
+  max-width: 550px;
 }
-.name p {
-  font-size: 3rem;
+.name h1 {
+  font-size: 3.2rem;
   color: rgb(227, 28, 95);
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
   line-height: 1;
@@ -23,7 +24,7 @@
 
 .details {
   margin-bottom: 3rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .details p {
@@ -35,9 +36,10 @@
 .services p {
   text-align: center;
   padding-top: 2rem;
-  font-size: 1.4rem;
+  padding-bottom: 2rem;
+  font-size: 1.6rem;
   color: rgb(227, 28, 95);
-  line-height: 2;
+  line-height: 2.5;
 }
 
 .contactme {
@@ -59,12 +61,15 @@
     rgb(215, 4, 102) 100%
   );
   color: #fff;
+  margin-bottom: 4rem;
 }
 
 .banner {
-  margin-top: 20px;
-  height: 200px;
+  height: 400px;
   background-image: url("/images/pic_bw.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: right x;
+  width: 100%;
+  min-height: 2vh;
 }
