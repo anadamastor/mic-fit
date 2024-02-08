@@ -14,6 +14,7 @@
   background-color: #00000099;
   backdrop-filter: blur(5px);
   max-width: 550px;
+  padding: 1rem;
 }
 .name h1 {
   font-size: 3.2rem;
@@ -24,11 +25,11 @@
 
 .details {
   margin-bottom: 3rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .details p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
   color: rgb(74, 73, 73);
 }
