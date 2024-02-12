@@ -1,8 +1,9 @@
 .main {
+  border: 1px solid white;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
   min-height: 100vh;
   background-image: url("/images/pic_michi.jpg");
   background-size: cover;
@@ -21,6 +22,7 @@
   padding-left: 3rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  max-width: 475px;
 }
 
 .details {
@@ -35,6 +37,9 @@
   color: rgb(74, 73, 73);
 }
 
+.services {
+  border: 1px solid white;
+}
 .services p {
   text-align: center;
   padding-top: 2rem;
@@ -73,5 +78,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border: 1px solid white;
+}
+
+.pagecontainer {
   width: 100%;
+  @media screen and (min-width: 700px) {
+    align-items: center;
+    width: 700px;
+    border: 2px red;
+    margin: auto;
+  }
 }

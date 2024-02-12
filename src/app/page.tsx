@@ -1,8 +1,9 @@
+import PageContainer from "./components/page-container";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <>
+    <PageContainer >
       <main className={styles.main}>
         <div className={styles.name}>
           <h1>Michela Mancini Fitness</h1>
@@ -40,6 +41,6 @@ export default function Home() {
         </p>
       </div>
       <div className={styles.banner}></div>
-    </>
+    </PageContainer>
   );
 }
