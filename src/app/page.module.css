@@ -37,6 +37,8 @@
 }
 
 .services {
+  backdrop-filter: opacity(20%);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .services p {
   text-align: center;
