@@ -1,6 +1,4 @@
 .main {
-  border: 1px solid white;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -34,11 +32,11 @@
 .details p {
   font-size: 1rem;
   font-weight: 500;
-  color: rgb(74, 73, 73);
+  color: white;
+  text-shadow: 1px 0 4px black;
 }
 
 .services {
-  border: 1px solid white;
 }
 .services p {
   text-align: center;
@@ -78,7 +76,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border: 1px solid white;
 }
 
 .pagecontainer {
