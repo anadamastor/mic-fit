@@ -1,12 +1,17 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import { Inter, Bebas_Neue } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-body" });
+const bebasNeue = Bebas_Neue({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-display",
+});
 
 export const metadata: Metadata = {
   title: "Michela Mancini Fitness",
-  description: "Preparazione atletica",
+  description: "Boxe thailandese e personal training su misura, con Michela Mancini.",
   keywords: [
     "boxe",
     "preparatrice atletica",
@@ -36,14 +41,23 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport: Viewport = {
+  themeColor: "#09090b",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ita">
-      <body className={inter.className}>{children}</body>
+    <html lang="it">
+      <body className={`${inter.variable} ${bebasNeue.variable}`}>
+        <noscript>
+          <style>{`.reveal{opacity:1!important;transform:none!important;}`}</style>
+        </noscript>
+        {children}
+      </body>
     </html>
   );
 }

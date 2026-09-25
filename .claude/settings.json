@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(timeout 25 npx -y playwright@1.48 --version)",
+      "Bash(node shot.mjs)",
+      "Bash(node shot2.mjs)",
+      "Bash(npm run *)"
+    ],
+    "additionalDirectories": [
+      "/tmp/mic-fit-verify",
+      "/private/tmp/mic-fit-verify"
+    ]
+  }
+}
