@@ -80,6 +80,7 @@ export default function Home() {
             sizes="100vw"
             className={styles.heroImage}
           />
+          <div className={styles.heroTint} />
           <div className={styles.heroScrim} />
           <div className={styles.heroContent}>
             <p className={styles.eyebrow}>Muay Thai · Personal Training</p>

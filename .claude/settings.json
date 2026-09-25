@@ -4,11 +4,14 @@
       "Bash(timeout 25 npx -y playwright@1.48 --version)",
       "Bash(node shot.mjs)",
       "Bash(node shot2.mjs)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(rm -rf /tmp/mic-fit-verify2)",
+      "Bash(sips --help)"
     ],
     "additionalDirectories": [
       "/tmp/mic-fit-verify",
-      "/private/tmp/mic-fit-verify"
+      "/private/tmp/mic-fit-verify",
+      "/tmp/mic-fit-verify2"
     ]
   }
 }
